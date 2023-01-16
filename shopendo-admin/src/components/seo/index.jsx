@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 
 const site = {
   siteMetadata: {
-    title: `shopendo admin panel`,
+    title: `aesir admin panel`,
     description: `ecommerce shop`,
     author: `@yrikhn`,
   },

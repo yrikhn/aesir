@@ -51,15 +51,6 @@ const Topbar: React.FC = () => {
     <div className="w-full min-h-topbar max-h-topbar pr-xlarge pl-base bg-grey-0 border-b border-grey-20 sticky top-0 flex items-center justify-between z-40">
       <SearchBar />
       <div className="flex items-center">
-        <Button
-          size="small"
-          variant="ghost"
-          className="w-8 h-8 mr-3"
-          onClick={() => setShowSupportForm(!showSupportform)}
-        >
-          <HelpCircleIcon size={24} />
-        </Button>
-
         <NotificationBell
           onClick={onNotificationBellClick}
           variant={"ghost"}
@@ -104,12 +95,7 @@ const Topbar: React.FC = () => {
           </DropdownMenu.Root>
         </div>
       </div>
-      {showSupportform && (
-        <MailDialog
-          open={showSupportform}
-          onClose={() => setShowSupportForm(false)}
-        />
-      )}
+
       {activityDrawerState && (
         <ActivityDrawer onDismiss={activityDrawerClose} />
       )}

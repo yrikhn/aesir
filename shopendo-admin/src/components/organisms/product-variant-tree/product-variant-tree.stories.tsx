@@ -26,7 +26,7 @@ const testProduct: Pick<Product, "title" | "id" | "thumbnail"> & {
   }[]
 } = {
   id: "prod_01FY6FS3VB39G5GPB75S7RYQW6",
-  title: "Medusa Sweatshirt",
+  title: "Aesir Sweatshirt",
   thumbnail:
     "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-front.png",
   variants: [

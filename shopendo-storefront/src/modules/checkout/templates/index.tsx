@@ -22,7 +22,7 @@ const CheckoutTemplate = () => {
               </a>
             </Link>
             <Link href="/">
-              <a className="text-xl-semi">shopendo</a>
+              <a className="text-xl-semi">Aesir</a>
             </Link>
             <div className="flex-1 basis-0" />
           </nav>

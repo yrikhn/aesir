@@ -20,7 +20,7 @@ const PersonalInformation = () => {
         <div className="flex flex-col gap-y-2xsmall">
           <h1 className="inter-xlarge-semibold">Personal information</h1>
           <p className="inter-base-regular text-grey-50">
-            Manage your Medusa profile
+            Manage your profile
           </p>
         </div>
         <div className="flex flex-col">

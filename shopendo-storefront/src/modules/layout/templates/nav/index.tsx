@@ -72,7 +72,7 @@ const Nav = () => {
 
           <div className="flex items-center h-full">
             <Link href="/">
-              <a className="text-xl-semi uppercase">shopendo</a>
+              <a className="text-xl-semi uppercase">ÆSIR</a>
             </Link>
           </div>
 

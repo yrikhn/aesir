@@ -509,54 +509,6 @@ const OrderDetails = () => {
                 </BodyCard>
                 <BodyCard
                   className={"w-full mb-4 min-h-0 h-auto"}
-                  title="Fulfillment"
-                  status={
-                    <FulfillmentStatusComponent
-                      status={order.fulfillment_status}
-                    />
-                  }
-                  customActionable={
-                    order.fulfillment_status !== "fulfilled" &&
-                    order.status !== "canceled" &&
-                    order.fulfillment_status !== "shipped" && (
-                      <Button
-                        variant="secondary"
-                        size="small"
-                        onClick={() => setShowFulfillment(true)}
-                      >
-                        Create Fulfillment
-                      </Button>
-                    )
-                  }
-                >
-                  <div className="mt-6">
-                    {order.shipping_methods.map((method) => (
-                      <div className="flex flex-col" key={method.id}>
-                        <span className="inter-small-regular text-grey-50">
-                          Shipping Method
-                        </span>
-                        <span className="inter-small-regular text-grey-90 mt-2">
-                          {method?.shipping_option?.name || ""}
-                        </span>
-                        <div className="flex flex-grow items-center mt-4 w-full">
-                          <JSONView data={method?.data} />
-                        </div>
-                      </div>
-                    ))}
-                    <div className="mt-6 inter-small-regular ">
-                      {allFulfillments.map((fulfillmentObj, i) => (
-                        <FormattedFulfillment
-                          key={i}
-                          order={order}
-                          fulfillmentObj={fulfillmentObj}
-                          setFullfilmentToShip={setFullfilmentToShip}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </BodyCard>
-                <BodyCard
-                  className={"w-full mb-4 min-h-0 h-auto"}
                   title="Customer"
                   actionables={customerActionables}
                 >
