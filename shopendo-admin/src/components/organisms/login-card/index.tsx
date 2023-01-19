@@ -35,13 +35,13 @@ const LoginCard: React.FC<LoginCardProps> = ({ toResetPassword }) => {
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="flex flex-col items-center">
         <span className="inter-2xlarge-semibold mt-4 text-grey-90">
-          Willkommen zurück!
+          Welcome back!
         </span>
         <span className="inter-base-regular text-grey-50 mt-2">
-          Schön dich wieder zu sehen 👋🏼
+          Nice to see you again 👋🏼
         </span>
         <span className="inter-base-regular text-grey-50 mb-xlarge">
-          Log dich unten in deinen Account ein
+          Log in to your account below
         </span>
         <SigninInput
           placeholder="Email..."
