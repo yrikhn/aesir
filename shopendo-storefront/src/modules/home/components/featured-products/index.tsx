@@ -11,12 +11,12 @@ const FeaturedProducts = () => {
       <div className="content-container py-12">
         <div className="flex flex-col items-center text-center mb-16">
           <span className="text-base-regular text-gray-600 mb-6">
-            Neuste Produkte
+            Latest Products
           </span>
           <p className="text-2xl-regular text-gray-900 max-w-lg mb-4">
-            Unsere neusten Bade- und Schwimmartikel für Dich
+            Our latest swimwear and swim accessoires for you!
           </p>
-          <UnderlineLink href="/store">Neuste Produkte</UnderlineLink>
+          <UnderlineLink href="/store">Latest Products</UnderlineLink>
         </div>
         <ul className="grid grid-cols-2 small:grid-cols-4 gap-x-4 gap-y-8">
           {data

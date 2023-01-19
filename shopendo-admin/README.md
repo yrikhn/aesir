@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Medusa Admin
+  Aesir Admin
 </h1>
 <p align="center">
 Medusa is an open-source headless commerce engine that enables developers to create amazing digital commerce experiences.

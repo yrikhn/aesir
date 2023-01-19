@@ -33,6 +33,7 @@ const CustomGiftcard: React.FC<CustomGiftcardProps> = ({ onDismiss }) => {
         value: regions[0],
         label: regions[0].name,
       })
+
     }
   }, [isLoading])
 
@@ -79,20 +80,8 @@ const CustomGiftcard: React.FC<CustomGiftcardProps> = ({ onDismiss }) => {
           <div className="flex flex-col">
             <span className="inter-base-semibold">Value</span>
             <div className="flex gap-x-2xsmall mt-4">
-              <div className="w-[267px]">
-                <Select
-                  label={"Region"}
-                  value={selectedRegion}
-                  onChange={(value) => setSelectedRegion(value)}
-                  options={
-                    regions?.map((r) => ({
-                      value: r,
-                      label: r.name,
-                    })) || []
-                  }
-                />
-              </div>
-              <div className="w-[415px]">
+              
+              <div className="w-full">
                 <CurrencyInput.Root
                   size="medium"
                   currencyCodes={

@@ -6,10 +6,13 @@ const Hero = () => {
     <div className="h-[90vh] w-full relative">
       <div className="text-white absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:text-left small:justify-end small:items-start small:p-32">
         <h1 className="text-2xl-semi mb-4 drop-shadow-md shadow-black">
-          Bathing and swimming clothes
+          Aesir Swimwear: Dive into Elegance
         </h1>
-        <p className="text-base-regular max-w-[32rem] mb-6 drop-shadow-md shadow-black">
-          Shop bathing clothes and swimming suites and others secure and easy
+        <p className="text-base max-w-[36rem] mb-6 drop-shadow-md shadow-black">
+          Discover the ultimate collection of stylish and high-quality swimwear
+          at ÆSIR. From classic one-pieces to trendy bikinis and everything in
+          between, we have the perfect swimsuits for every body type and
+          occasion. Shop now and elevate your beach game with ÆSIR.
         </p>
         <UnderlineLink href="/store">Discover Products</UnderlineLink>
       </div>
