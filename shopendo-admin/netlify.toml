@@ -1,5 +1,5 @@
 [template.environment]
-  MEDUSA_BACKEND_URL="aesir-backend-production.up.railway.app"
+  MEDUSA_BACKEND_URL="https://aesir-backend-production.up.railway.app"
 
 [build]
   publish = "public/"
